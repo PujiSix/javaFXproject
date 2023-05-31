@@ -1,0 +1,47 @@
+.exitButton {
+       -fx-background-color: transparent;
+      -fx-padding: 1px 1px;
+      -fx-cursor: hand;
+      -fx-graphic: url('close-10.png');
+      -fx-background-radius:10;
+}
+
+.exitButton:hover {
+    -fx-background-color: #ffffff;
+}
+
+.exitButton:pressed {
+    -fx-background-color: #FF0000;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 5, 0, 0, 0);
+    -fx-translate-y: 1px;
+}
+
+.loginButton {
+    -fx-background-color: #4CAF50;  /* Warna latar belakang */
+    -fx-text-fill: white;  /* Warna teks */
+    -fx-padding: 8px 16px;  /* Padding (atas, kanan, bawah, kiri) */
+    -fx-background-radius: 10;  /* Border radius */
+}
+
+.loginButton:hover {
+    -fx-background-color: #45a049;  /* Warna latar belakang saat di-hover */
+}
+
+.loginButton:pressed {
+    -fx-background-color: #367d39;  /* Warna latar belakang saat ditekan */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 5, 0, 0, 0);
+    -fx-translate-y: 1px;
+}
+
+.loginPage{ /*fungsi transparan di parentHallo*/
+     -fx-background-color:rgba(255, 255, 255,0.9);
+     -fx-background-radius:15;
+}
+
+.SignPage{
+    -fx-background-color:rgba(255,255,255,0.9);
+     -fx-background-radius:15;
+}
+
+
+

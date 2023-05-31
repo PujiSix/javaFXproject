@@ -1,0 +1,10 @@
+.slide-button {
+    -fx-background-color: #ccc;
+    -fx-background-radius: 10;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+
+.slide-button:selected {
+    -fx-background-color: #F92D02;
+}

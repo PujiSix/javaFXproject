@@ -1,0 +1,29 @@
+.primary-color{
+-fx-background-color:#3A3A3A;
+}
+.round-border{
+-fx-background-radius:100;
+-fx-graphic: url('moon2.png');
+}
+
+.exitButtonHome {
+      -fx-background-color: #4CAF50;  /* Warna latar belakang */
+          -fx-text-fill: white;  /* Warna teks */
+          -fx-padding: 8px 16px;  /* Padding (atas, kanan, bawah, kiri) */
+          -fx-background-radius: 10;  /* Border radius */
+}
+
+.exitButtonHome:hover {
+     -fx-background-color: #45a049;
+}
+
+.exitButtonHome:pressed {
+   -fx-background-color: #367d39;  /* Warna latar belakang saat ditekan */
+       -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 5, 0, 0, 0);
+       -fx-translate-y: 1px;
+}
+
+.view{
+-fx-background-color:rgba(128, 128, 128,1);
+-fx-background-radius:5;
+}
